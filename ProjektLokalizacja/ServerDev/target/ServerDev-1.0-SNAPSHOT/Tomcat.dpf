@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ServerDev">
+  <Resource auth="Container" maxActive="8" maxIdle="4" name="jdbc/bazaurzadzen" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/bazaurzadzen" username="root"/>
+  <ResourceLink global="jdbc/bazaurzadzen" name="jdbc/bazaurzadzen" type="javax.sql.DataSource"/>
+</Context>
